@@ -27,4 +27,24 @@ h1 {
 h2 {
     font-weight: normal;
     color: $charcoal;
+    line-height: 1.2em;
+    padding-bottom: 1em;
+}
+
+.content {
+    padding: 25px 0;
+}
+
+.screenshot {
+    margin-top: -25px;
+}
+
+label {
+    font-weight: normal;
+    color: $charcoal;
+}
+
+input[type=text] {
+    border: 1px solid #eee;
+    padding: 1.3em;
 }

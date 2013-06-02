@@ -10,29 +10,24 @@
 </head>
 <body>
 
-	<header>
+    <header>
         <div class="row">
-    		<div class="large-12 columns">
-    			<h1>towtext</h1>
-    		</div>
+            <div class="large-12 columns">
+                <h1>towtext</h1>
+            </div>
         </div>
-	</header>
+    </header>
 
-	<div class="row">
-        <div class="large-6 columns">
+    <div class="row content">
+        <div class="large-6 small-12 columns">
             <h2>Sign up to get a free text message if your car is towed or relocated by the City of Chicago</h2>
         </div>
         <div class="large-3 columns">
             
-            
             <label for="plate">License Plate</label>
             <input type="text" maxlength="10" name="plate" />
             
-            <label for="phone">Cell Phone Number</label>
-            <input type="text" name="phone" />
-        </div>
-        <div class="large-3 columns">
-            <label for="state">State</label>
+            <label for="state">License Plate State</label>
             <select name="state">
             	<option value="AL">Alabama</option>
             	<option value="AK">Alaska</option>
@@ -86,15 +81,17 @@
             	<option value="WI">Wisconsin</option>
             	<option value="WY">Wyoming</option>
             </select>
+            
+            <label for="phone">Cell Phone Number</label>
+            <input type="text" name="phone" />
         
             <input type="submit" value="Sign Up" name="submit" />
         </div>
-    </div>
-    <div class="row">
-        <div class="large-6 columns">
+        <div class="large-3 columns screenshot hide-for-small">
             <img src="img/towtext-chicago.png" alt="TowText Chicago" />
         </div>
     </div>
+
         
     
     <div style="position:absolute;"> </div>
