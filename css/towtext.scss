@@ -53,10 +53,15 @@ input[type=text] {
     padding: 1.3em 0.5em;
 }
 
+#plate {
+    text-transform: uppercase;
+}
+
 input[type=submit] {
     border: 0;
-    background: $bright_blue url(../img/towtruck-right-white-smaller.png) no-repeat;
-    background-position: 8px 50%;
+    background: $bright_blue url(../img/towtruck-signup.png) no-repeat;
+    background-position: 46% 50%;
+    text-indent: -9999px;
     color: $white;
     padding: 0.8em 0.5em;
     width: 100%;
