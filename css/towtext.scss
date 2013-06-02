@@ -1,0 +1,30 @@
+@import 'normalize';
+@import 'foundation';
+
+$medium_blue:		#00A3D9;
+$bright_blue:		#26C9FF;
+$charcoal:			#444444;
+$white:				#FFFFFF;
+$slate:				#E5E5E5;
+
+body {
+    background: $slate url(../img/bg-chicago.jpg) top center no-repeat;
+}
+
+header {
+    background: $bright_blue;
+}
+
+h1 {
+    background: url(../img/logo-towtext.png) no-repeat;
+    width: 224px;
+    height: 59px;
+    text-indent: -9999px;
+    display: block;
+    margin-top: 24px;
+}
+
+h2 {
+    font-weight: normal;
+    color: $charcoal;
+}
