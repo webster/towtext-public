@@ -18,12 +18,7 @@ header {
 }
 
 h1 {
-    background: url(../img/logo-towtext.png) no-repeat;
-    width: 224px;
-    height: 59px;
-    text-indent: -9999px;
-    display: block;
-    margin-top: 24px;
+    margin-top: 10px;
 }
 
 h2 {
@@ -34,11 +29,18 @@ h2 {
 }
 
 .content {
-    padding: 25px 0;
+    padding: 50px 0;
 }
 
 .screenshot {
-    margin-top: -25px;
+    margin-top: -100px;
+    img {
+        -moz-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -webkit-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -o-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        -ms-transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+        transform: scale(1) rotate(5deg) translateX(0px) translateY(0px) skewX(0deg) skewY(0deg);
+    }
 }
 
 label {
@@ -48,7 +50,19 @@ label {
 
 input[type=text] {
     border: 1px solid #eee;
-    padding: 1.3em;
+    padding: 1.3em 0.5em;
+}
+
+input[type=submit] {
+    border: 0;
+    background: $bright_blue url(../img/towtruck-right-white-smaller.png) no-repeat;
+    background-position: 8px 50%;
+    color: $white;
+    padding: 0.8em 0.5em;
+    width: 100%;
+    &:hover {
+        text-decoration: underline;
+    }
 }
 
 footer {
