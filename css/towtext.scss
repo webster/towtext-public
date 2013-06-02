@@ -3,7 +3,8 @@
 
 $medium_blue:		#00A3D9;
 $bright_blue:		#26C9FF;
-$charcoal:			#444444;
+$charcoal:			#666666;
+$lightgrey:         #888888;
 $white:				#FFFFFF;
 $slate:				#E5E5E5;
 
@@ -12,7 +13,8 @@ body {
 }
 
 header {
-    background: $bright_blue;
+    //background: $bright_blue;
+    background: rgba(0, 163, 217, 0.75);
 }
 
 h1 {
@@ -47,4 +49,33 @@ label {
 input[type=text] {
     border: 1px solid #eee;
     padding: 1.3em;
+}
+
+footer {
+    padding: 15px 0;
+    background-color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.45);
+}
+
+.disclaimer {
+    p {
+        font-size: 12px;
+        color: $lightgrey;
+        margin: 0;
+        padding: 0;
+        &.notices {
+            padding-bottom: 1em;
+        }
+        &.credits {
+            background: url(../img/national-day-of-civic-hacking.gif) no-repeat 0px 3px;
+            padding-left: 176px;
+        }
+        a {
+            color: $lightgrey;
+            font-weight: bold;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
